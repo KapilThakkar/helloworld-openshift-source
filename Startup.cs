@@ -19,7 +19,7 @@ namespace helloweb
         {
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("<h1>Hello RGen!</h1>");
+                await context.Response.WriteAsync("<h1Welcome to Docker Explorer!</h1>");
             });
         }
     }
